@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Xammis Live Reports Publishing Protocol</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f7f5ef;--surface:#fffdf8;--border:#d9d4c8;--text:#1e2b34;--text-dim:#63717a;--navy:#153247;--green:#6e9635;--gold:#c48b26;--clay:#b65e43}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font-family:"DM Sans",sans-serif;line-height:1.55}.top{height:8px;background:linear-gradient(90deg,var(--green),var(--gold),var(--clay))}main{width:min(1120px,calc(100% - 32px));margin:auto;padding:54px 0 70px}.eyebrow{font:500 12px "Fira Code",monospace;text-transform:uppercase;letter-spacing:.13em;color:var(--green)}h1{font-size:clamp(42px,7vw,78px);line-height:.98;letter-spacing:-.055em;color:var(--navy);max-width:900px;margin:16px 0}.lead{font-size:clamp(18px,2.2vw,25px);color:var(--text-dim);max-width:800px}.flow{display:grid;grid-template-columns:repeat(5,1fr);gap:12px;margin:42px 0}.step{position:relative;background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:20px;min-width:0}.step:not(:last-child):after{content:"→";position:absolute;right:-12px;top:42%;z-index:2;color:var(--gold);font-weight:700}.num{font:500 12px "Fira Code",monospace;color:var(--clay)}.step strong{display:block;color:var(--navy);font-size:18px;margin:8px 0}.step span{font-size:14px;color:var(--text-dim)}.grid{display:grid;grid-template-columns:1.15fr .85fr;gap:18px}.card{background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:28px;min-width:0}.card h2{font-size:27px;color:var(--navy);letter-spacing:-.025em;margin:0 0 18px}.folders{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}.folder{font:500 14px "Fira Code",monospace;background:#eef2e7;border-left:4px solid var(--green);padding:11px 13px;border-radius:7px;overflow-wrap:anywhere}.rule{display:flex;gap:12px;align-items:flex-start;margin:14px 0}.check{flex:0 0 25px;height:25px;border-radius:50%;display:grid;place-items:center;background:var(--green);color:white;font-weight:700}.rule b{display:block;color:var(--navy)}.rule p{margin:2px 0;color:var(--text-dim);font-size:15px}.url{margin-top:18px;padding:18px;border-radius:10px;background:var(--navy);color:#e8f0e1;font:500 15px "Fira Code",monospace;overflow-wrap:anywhere}.callout{margin-top:20px;padding:24px 28px;border-radius:14px;background:#fff3dc;border:1px solid #ebcf98;color:#654716;font-size:18px}.callout strong{color:#49300b}@media(max-width:880px){.flow{grid-template-columns:1fr}.step:not(:last-child):after{content:"↓";right:auto;left:50%;top:auto;bottom:-20px}.grid{grid-template-columns:1fr}}@media(prefers-reduced-motion:no-preference){.step,.card{animation:rise .45s ease both}.step:nth-child(2){animation-delay:.05s}.step:nth-child(3){animation-delay:.1s}.step:nth-child(4){animation-delay:.15s}.step:nth-child(5){animation-delay:.2s}@keyframes rise{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}}
+</style>
+</head>
+<body><div class="top"></div><main>
+<div class="eyebrow">Xammis infrastructure · live delivery</div>
+<h1>Every report ends as a page people can actually open.</h1>
+<p class="lead">The agent cast now shares one publishing protocol: generate locally, sanitize carefully, file by author, push to GitHub Pages, and verify the public HTML before sending the link.</p>
+<section class="flow" aria-label="Publishing workflow">
+<div class="step"><span class="num">01</span><strong>Generate</strong><span>Create a complete, self-contained HTML report.</span></div>
+<div class="step"><span class="num">02</span><strong>Sanitize</strong><span>Remove credentials, private data, and unnecessary operational details.</span></div>
+<div class="step"><span class="num">03</span><strong>File</strong><span>Place the page beneath the authoring agent's folder.</span></div>
+<div class="step"><span class="num">04</span><strong>Publish</strong><span>Catalog, commit, and push the report to the main branch.</span></div>
+<div class="step"><span class="num">05</span><strong>Verify</strong><span>Wait until GitHub Pages serves the exact current HTML.</span></div>
+</section>
+<section class="grid">
+<article class="card"><h2>One folder per agent</h2><div class="folders">
+<div class="folder">coppola/report.html</div><div class="folder">gilfoyle/report.html</div><div class="folder">nick/report.html</div><div class="folder">marla/report.html</div><div class="folder">tolstoy/report.html</div><div class="folder">twain/report.html</div><div class="folder">kim/report.html</div><div class="folder">vincent/report.html</div><div class="folder">bond/report.html</div><div class="folder">jony/report.html</div><div class="folder">kubrick/report.html</div>
+</div></article>
+<article class="card"><h2>Delivery invariants</h2>
+<div class="rule"><span class="check">✓</span><div><b>Public HTTPS only</b><p>No local paths, attachments, blob links, or localhost URLs.</p></div></div>
+<div class="rule"><span class="check">✓</span><div><b>Author owns the folder</b><p>The agent who creates the report determines its canonical path.</p></div></div>
+<div class="rule"><span class="check">✓</span><div><b>Exact-content verification</b><p>Success waits for the live page to match the generated report.</p></div></div>
+<div class="url">https://xammis.github.io/live-reports/&lt;agent&gt;/&lt;report&gt;.html</div>
+</article></section>
+<div class="callout"><strong>Definition of done:</strong> a report is not ready when it exists on disk. It is ready when the remote user can open its verified web page.</div>
+</main></body></html>

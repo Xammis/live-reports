@@ -8,6 +8,14 @@
       "summary": "Traditional WordPress, headless WordPress, and static export for agency operations.",
       "published_at": "2026-05-19T21:16:15+00:00",
       "path": "coppola/sites-architecture.html"
+    },
+    {
+      "agent": "coppola",
+      "slug": "live-reports-protocol",
+      "title": "Xammis Live Reports Publishing Protocol",
+      "summary": "How every agent publishes visual reports as verified public HTML pages.",
+      "published_at": "2026-08-05T17:13:28+00:00",
+      "path": "coppola/live-reports-protocol.html"
     }
   ]
 }
