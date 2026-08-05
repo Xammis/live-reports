@@ -31,8 +31,9 @@ The authoritative agent slugs are listed in `agents.json`. A report must never b
 3. Publish with `scripts/publish-report.py`, passing the authoritative authoring agent slug, title, and concise summary.
 4. The publisher writes `<agent>/<slug>.html`, updates `reports.json`, regenerates the root and per-agent indexes, commits, and pushes `main`.
 5. The publisher waits until GitHub Pages serves the exact current HTML.
-6. Only after successful verification may the agent tell the user the report is ready.
-7. The user-facing response must contain the public HTTPS URL. A local path, attachment, repository blob URL, or promise that deployment will finish later is not an acceptable delivery.
+6. After exact verification, the publisher deletes the temporary source only when it came from `~/.agent/diagrams/` and still matches the published bytes. Failed or unverified publishes retain their source for recovery.
+7. Only after successful verification and staging cleanup may the agent tell the user the report is ready.
+8. The user-facing response must contain the public HTTPS URL. A local path, attachment, repository blob URL, or promise that deployment will finish later is not an acceptable delivery.
 
 ## Command
 
@@ -55,5 +56,6 @@ Successful output is JSON containing the verified `url`, repository `path`, and 
 - Each agent folder has an `index.html` generated from `reports.json`.
 - Publishing is serialized with a local file lock and uses fast-forward/rebase-safe Git operations.
 - The publisher refuses an unexpected Git remote, wrong branch, dirty checkout, malformed HTML, symlink source/destination, unknown agent, or common credential signature.
+- Files under `~/.agent/diagrams/` are temporary staging artifacts and are automatically removed only after byte-for-byte public verification. The canonical local copy remains in this repository.
 - Report slugs use lowercase ASCII letters, numbers, and hyphens.
 - Updating an existing agent/slug replaces that report and refreshes its publication timestamp.

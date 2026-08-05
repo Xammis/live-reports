@@ -202,6 +202,22 @@ def wait_for_pages(url: str, expected: bytes, timeout: int) -> None:
     raise RuntimeError(f"GitHub Pages did not publish current report within {timeout}s: {last_error}")
 
 
+def remove_verified_staging_source(source: Path, expected: bytes) -> bool:
+    staging_dir = (Path.home() / ".agent" / "diagrams").resolve()
+    try:
+        source.relative_to(staging_dir)
+    except ValueError:
+        return False
+    if not source.exists():
+        return True
+    if source.is_symlink() or not source.is_file():
+        raise RuntimeError("verified staging source changed type; automatic cleanup refused")
+    if source.read_bytes() != expected:
+        raise RuntimeError("verified staging source changed after publishing; automatic cleanup refused")
+    source.unlink()
+    return True
+
+
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("source", type=Path, help="complete self-contained HTML report")
@@ -278,7 +294,15 @@ def main() -> int:
 
     url = f"{BASE_URL}/{urllib.parse.quote(args.agent)}/{urllib.parse.quote(slug)}.html"
     wait_for_pages(url, content_bytes, max(10, args.pages_timeout))
-    print(json.dumps({"ok": True, "url": url, "agent": args.agent, "path": record["path"], "commit": commit}))
+    staging_source_removed = remove_verified_staging_source(source, content_bytes)
+    print(json.dumps({
+        "ok": True,
+        "url": url,
+        "agent": args.agent,
+        "path": record["path"],
+        "commit": commit,
+        "staging_source_removed": staging_source_removed,
+    }))
     return 0
 
 
