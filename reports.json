@@ -16,6 +16,14 @@
       "summary": "How every agent publishes visual reports as verified public HTML pages.",
       "published_at": "2026-08-05T17:31:13+00:00",
       "path": "coppola/live-reports-protocol.html"
+    },
+    {
+      "agent": "marla",
+      "slug": "google-api-integration-capabilities",
+      "title": "Google API Integration: From Blocked to Live",
+      "summary": "A visual recap of the Google API integration, verified capabilities, safeguards, and next opportunities.",
+      "published_at": "2026-08-05T17:45:48+00:00",
+      "path": "marla/google-api-integration-capabilities.html"
     }
   ]
 }
