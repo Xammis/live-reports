@@ -24,6 +24,14 @@
       "summary": "A fresh Visual Explainer report using Base, Base Two, and Base Three for most sections with restrained Cartographer and Base Five usage.",
       "published_at": "2026-08-05T22:06:48+00:00",
       "path": "marla/google-api-integration-capabilities.html"
+    },
+    {
+      "agent": "marla",
+      "slug": "google-api-contrast-validation",
+      "title": "Google API Integration Capabilities | Contrast Rules Test",
+      "summary": "A fresh Fuel Logic report validating Contrast paragraphs on light surfaces, Base paragraphs on a dark surface, and the Cartographer white-contrast adjacency rule.",
+      "published_at": "2026-08-05T22:21:05+00:00",
+      "path": "marla/google-api-contrast-validation.html"
     }
   ]
 }
