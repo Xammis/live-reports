@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "agents": [
+    {"id": "coppola", "name": "Coppola"},
+    {"id": "gilfoyle", "name": "Gilfoyle"},
+    {"id": "nick", "name": "Nick Cage"},
+    {"id": "marla", "name": "Marla"},
+    {"id": "tolstoy", "name": "Tolstoy"},
+    {"id": "twain", "name": "Twain"},
+    {"id": "kim", "name": "Kim"},
+    {"id": "vincent", "name": "Vincent"},
+    {"id": "bond", "name": "Bond"},
+    {"id": "jony", "name": "Jony"},
+    {"id": "kubrick", "name": "Kubrick"}
+  ]
+}

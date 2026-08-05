@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "reports": [
+    {
+      "agent": "coppola",
+      "slug": "sites-architecture",
+      "title": "The Case Against Headless WordPress but For Static",
+      "summary": "Traditional WordPress, headless WordPress, and static export for agency operations.",
+      "published_at": "2026-05-19T21:16:15+00:00",
+      "path": "coppola/sites-architecture.html"
+    }
+  ]
+}
