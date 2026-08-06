@@ -40,6 +40,14 @@
       "summary": "A responsive brand-guide recreation of Fuel Logic’s About page, covering its people, values, competitive advantages, mission, and guarantee.",
       "published_at": "2026-08-06T15:00:55+00:00",
       "path": "jony/fuel-logic-about-recreated.html"
+    },
+    {
+      "agent": "coppola",
+      "slug": "organic-vs-ad-traffic-2026-ytd",
+      "title": "Organic vs Ad Traffic | 2026 Year to Date",
+      "summary": "A public-safe GA4 comparison of Organic Search and advertising traffic share, engagement, monthly mix, methodology, and recommended actions.",
+      "published_at": "2026-08-06T15:06:21+00:00",
+      "path": "coppola/organic-vs-ad-traffic-2026-ytd.html"
     }
   ]
 }
