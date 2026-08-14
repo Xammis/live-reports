@@ -48,6 +48,14 @@
       "summary": "A public-safe GA4 comparison of Organic Search and advertising traffic share, engagement, monthly mix, methodology, and recommended actions.",
       "published_at": "2026-08-06T15:06:21+00:00",
       "path": "coppola/organic-vs-ad-traffic-2026-ytd.html"
+    },
+    {
+      "agent": "nick",
+      "slug": "google-ads-broadmatch-change-audit-2026-08-14",
+      "title": "Nationwide Call Campaign Broad Match Audit",
+      "summary": "Audit of August 5 broad match additions, August 12 removals, August 14 pauses, and current campaign balance.",
+      "published_at": "2026-08-14T18:32:26+00:00",
+      "path": "nick/google-ads-broadmatch-change-audit-2026-08-14.html"
     }
   ]
 }
