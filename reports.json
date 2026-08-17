@@ -56,6 +56,14 @@
       "summary": "Audit of August 5 broad match additions, August 12 removals, August 14 pauses, and current campaign balance.",
       "published_at": "2026-08-14T19:10:30+00:00",
       "path": "nick/google-ads-broadmatch-change-audit-2026-08-14.html"
+    },
+    {
+      "agent": "nick",
+      "slug": "google-ads-july-august-event-trail-2026-08-17",
+      "title": "Google Ads July to August Event Trail",
+      "summary": "July account baseline and a detailed Nationwide Call campaign timeline covering the August experiment, rollback, overcorrection, and repair plan.",
+      "published_at": "2026-08-17T20:24:50+00:00",
+      "path": "nick/google-ads-july-august-event-trail-2026-08-17.html"
     }
   ]
 }
