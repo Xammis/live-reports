@@ -11,6 +11,7 @@
     {"id": "vincent", "name": "Vincent"},
     {"id": "bond", "name": "Bond"},
     {"id": "jony", "name": "Jony"},
-    {"id": "kubrick", "name": "Kubrick"}
+    {"id": "kubrick", "name": "Kubrick"},
+    {"id": "don", "name": "Don"}
   ]
 }
