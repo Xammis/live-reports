@@ -12,6 +12,7 @@
     {"id": "bond", "name": "Bond"},
     {"id": "jony", "name": "Jony"},
     {"id": "kubrick", "name": "Kubrick"},
-    {"id": "don", "name": "Don"}
+    {"id": "don", "name": "Don"},
+    {"id": "velma", "name": "Velma"}
   ]
 }
