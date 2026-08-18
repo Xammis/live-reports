@@ -13,6 +13,7 @@
     {"id": "jony", "name": "Jony"},
     {"id": "kubrick", "name": "Kubrick"},
     {"id": "don", "name": "Don"},
-    {"id": "velma", "name": "Velma"}
+    {"id": "velma", "name": "Velma"},
+    {"id": "alice", "name": "Alice"}
   ]
 }
