@@ -64,6 +64,14 @@
       "summary": "July account baseline and a detailed Nationwide Call campaign timeline covering the August experiment, rollback, overcorrection, and repair plan.",
       "published_at": "2026-08-17T20:24:50+00:00",
       "path": "nick/google-ads-july-august-event-trail-2026-08-17.html"
+    },
+    {
+      "agent": "coppola",
+      "slug": "hubspot-agent-capability-overview",
+      "title": "Fuel Logic HubSpot Agent Toolkit",
+      "summary": "A short, plain-English overview of current HubSpot agent capabilities, limits, and upgrade costs.",
+      "published_at": "2026-08-27T00:25:58+00:00",
+      "path": "coppola/hubspot-agent-capability-overview.html"
     }
   ]
 }
