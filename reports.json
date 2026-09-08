@@ -88,6 +88,14 @@
       "summary": "August organic and lead performance across Fuel Logic, Rhino Fuel, Fuel Monkey, and Fuel Core.",
       "published_at": "2026-09-04T14:19:21+00:00",
       "path": "marla/fuel-brand-portfolio-report-august-2026.html"
+    },
+    {
+      "agent": "nick",
+      "slug": "houston-hvac-case-study-visual-pilot",
+      "title": "Houston HVAC Case Study Visual Pilot",
+      "summary": "Crawlable HTML case-study modules and reusable social assets based on Fuel Logic’s corrected Houston HVAC story.",
+      "published_at": "2026-09-08T14:34:19+00:00",
+      "path": "nick/houston-hvac-case-study-visual-pilot.html"
     }
   ]
 }
