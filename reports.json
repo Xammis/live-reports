@@ -96,6 +96,14 @@
       "summary": "Crawlable HTML case-study modules and reusable social assets based on Fuel Logic’s corrected Houston HVAC story.",
       "published_at": "2026-09-08T14:34:19+00:00",
       "path": "nick/houston-hvac-case-study-visual-pilot.html"
+    },
+    {
+      "agent": "jony",
+      "slug": "fuel-monkey-ads-landing-page",
+      "title": "Fuel Monkey Ads Landing Page Concept",
+      "summary": "Five-section responsive landing page concept with placeholder content following Fuel Monkey Brand Guide v1.0.",
+      "published_at": "2026-09-10T18:45:14+00:00",
+      "path": "jony/fuel-monkey-ads-landing-page.html"
     }
   ]
 }
