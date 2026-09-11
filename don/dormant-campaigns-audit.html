@@ -44,7 +44,7 @@
   tbody tr:hover { background:var(--base2); }
   .cname { font-weight:500; white-space:nowrap; }
   .note { max-width:34ch; color:var(--contrast2); }
-  .geo { min-width:90px; background:repeating-linear-gradient(45deg,#fff,#fff 6px,var(--base2) 6px,var(--base2) 12px); }
+  .geo2 { min-width:140px; max-width:22ch; font-size:0.85rem; color:var(--contrast); background:var(--base4); }
   .pill { display:inline-block; font-size:0.75rem; font-weight:700; padding:.15rem .6rem; border-radius:999px; }
   .pill.p1 { background:var(--accent); color:#fff; }
   .pill.p2 { background:var(--orange); color:#fff; }
@@ -69,7 +69,7 @@
 <main>
   <h1>Dormant Campaign Audit: <span style="color:var(--accent)">Enabled but Not Spending</span></h1>
   <p class="lede">Every ENABLED campaign in the Fuel Logic account, screened for real delivery over the last 90 days (Jun 13 to Sep 11, 2026). The question: which campaigns are switched on but doing nothing, which ones used to produce and stopped, and which are worth reviving first.</p>
-  <p class="meta">Prepared by Don, Sep 11, 2026 · Google Ads customer 9413861431 · Account timezone America/Los_Angeles</p>
+  <p class="meta">Prepared by Don, Sep 11, 2026 (updated with Noah's market intel) · Google Ads customer 9413861431 · Account timezone America/Los_Angeles</p>
 
   <div class="statgrid">
     <div class="stat"><div class="num">101</div><div class="lbl">Enabled campaigns</div></div>
@@ -110,8 +110,8 @@
 <td>$64,218</td>
 <td>269</td>
 <td>$1,000/day</td>
-<td class="geo"></td>
-<td class="note">Biggest sleeper in the account. Healthy structure (7 enabled ad groups, 159 enabled keywords), $1,500/day budget, then spend flatlined Aug 31. Tennessee tracker still logged 10 KA calls in 90d via other TN campaigns, so demand exists.</td>
+<td class="geo2">Noah: volatile rep. Retry at lower budget.</td>
+<td class="note">Biggest sleeper in the account. Healthy structure (7 enabled ad groups, 159 enabled keywords), $1,000/day budget, then spend flatlined Aug 31. Tennessee tracker still logged 10 KA calls in 90d via other TN campaigns, so demand exists.</td>
 </tr>
 <tr>
 <td class="cname">Jacksonville Fuel</td>
@@ -122,7 +122,7 @@
 <td>$10,920</td>
 <td>214</td>
 <td>$1,000/day</td>
-<td class="geo"></td>
+<td class="geo2">FL market.</td>
 <td class="note">Lifetime $10.9K / 214 conversions, died Sep 1. Structure intact (27 enabled keywords). Jacksonville Ads tracker: 7 KA calls in 90d.</td>
 </tr>
 <tr>
@@ -134,7 +134,7 @@
 <td>$6,932</td>
 <td>238</td>
 <td>$1,000/day</td>
-<td class="geo"></td>
+<td class="geo2">Noah: strategic want, never got traction.</td>
 <td class="note">Lifetime $6.9K / 238 conversions, died Sep 3. Structure intact.</td>
 </tr>
 <tr>
@@ -146,7 +146,7 @@
 <td>$6,457</td>
 <td>135</td>
 <td>$500/day</td>
-<td class="geo"></td>
+<td class="geo2">TN-market adjacent.</td>
 <td class="note">Lifetime $6.5K / 135 conversions, died Aug 24. Memphis tracker: 5 KA calls in 90d.</td>
 </tr>
 <tr>
@@ -158,7 +158,7 @@
 <td>$5,280</td>
 <td>144</td>
 <td>$700/day</td>
-<td class="geo"></td>
+<td class="geo2">FL niche: Noah will fold in eventually.</td>
 <td class="note">Lifetime $5.3K / 144 conversions, died Aug 28. Cape Coral tracker: 6 KA calls in 90d.</td>
 </tr>
 <tr>
@@ -170,7 +170,7 @@
 <td>$4,471</td>
 <td>34</td>
 <td>$1,500/day</td>
-<td class="geo"></td>
+<td class="geo2"></td>
 <td class="note">Stopped Sep 3. Only 5 of 19 ad groups enabled, 205 of 284 keywords paused. Half-built and fading.</td>
 </tr>
 <tr>
@@ -182,7 +182,7 @@
 <td>$4,062</td>
 <td>38.3</td>
 <td>$1,000/day</td>
-<td class="geo"></td>
+<td class="geo2"></td>
 <td class="note">Lifetime $4.1K / 38 conversions but only $20 spend in 90 days. Last spent Jul 14.</td>
 </tr>
 <tr>
@@ -194,7 +194,7 @@
 <td>$3,031</td>
 <td>19</td>
 <td>$1,500/day</td>
-<td class="geo"></td>
+<td class="geo2"></td>
 <td class="note">Lifetime $3.0K, last spent Aug 21, 12 of 19 ad groups removed.</td>
 </tr>
 <tr>
@@ -206,7 +206,7 @@
 <td>$2,238</td>
 <td>44</td>
 <td>$300/day</td>
-<td class="geo"></td>
+<td class="geo2">Noah: strategic want.</td>
 <td class="note">Lifetime $2.2K / 44 conversions, last spent Sep 2 with only $15 in 90 days.</td>
 </tr>
 <tr>
@@ -218,7 +218,7 @@
 <td>$709</td>
 <td>31</td>
 <td>$300/day</td>
-<td class="geo"></td>
+<td class="geo2">Noah: strategic want.</td>
 <td class="note">$112 spend in 90 days, died Aug 3.</td>
 </tr>
 <tr>
@@ -230,7 +230,7 @@
 <td>$437</td>
 <td>7</td>
 <td>$700/day</td>
-<td class="geo"></td>
+<td class="geo2"></td>
 <td class="note">Review against geo priorities.</td>
 </tr>
 <tr>
@@ -242,7 +242,7 @@
 <td>$192</td>
 <td>9</td>
 <td>$300/day</td>
-<td class="geo"></td>
+<td class="geo2">FL market.</td>
 <td class="note">Small but efficient historically (9 conversions on $192 lifetime).</td>
 </tr>
 <tr>
@@ -254,7 +254,7 @@
 <td>$167</td>
 <td>2</td>
 <td>$500/day</td>
-<td class="geo"></td>
+<td class="geo2"></td>
 <td class="note">Wet Hosing is a low-search-volume specialty line. Pattern repeats account-wide: these rarely serve. Consolidate or accept as always-on niche presence.</td>
 </tr>
 <tr>
@@ -266,7 +266,7 @@
 <td>$112</td>
 <td>2</td>
 <td>$1,000/day</td>
-<td class="geo"></td>
+<td class="geo2"></td>
 <td class="note">Generator is a low-search-volume specialty line. Pattern repeats account-wide: these rarely serve. Consolidate or accept as always-on niche presence.</td>
 </tr>
 <tr>
@@ -278,7 +278,7 @@
 <td>$29</td>
 <td>1</td>
 <td>$500/day</td>
-<td class="geo"></td>
+<td class="geo2">FL niche: fold-in candidate.</td>
 <td class="note">Wet Hosing is a low-search-volume specialty line. Pattern repeats account-wide: these rarely serve. Consolidate or accept as always-on niche presence.</td>
 </tr>
 <tr>
@@ -290,7 +290,7 @@
 <td>$18</td>
 <td>0</td>
 <td>$1,000/day</td>
-<td class="geo"></td>
+<td class="geo2"></td>
 <td class="note">Wet Hosing is a low-search-volume specialty line. Pattern repeats account-wide: these rarely serve. Consolidate or accept as always-on niche presence.</td>
 </tr>
       </tbody>
@@ -312,7 +312,7 @@
 <td>$4,482</td>
 <td>93.7</td>
 <td>$1,000/day</td>
-<td class="geo"></td>
+<td class="geo2">Core TX market.</td>
 <td class="note">STRUCTURAL: campaign is enabled but its only ad group is PAUSED. That is a guaranteed $0 forever. $4.5K / 94 conversions lifetime says it earns its keep the moment someone flips the switch.</td>
 </tr>
 <tr>
@@ -324,7 +324,7 @@
 <td>$3,559</td>
 <td>67</td>
 <td>$500/day</td>
-<td class="geo"></td>
+<td class="geo2">Noah: strategic want, never got traction.</td>
 <td class="note">Lifetime $3.6K / 67 conversions, zero impressions in 90 days. Structure fine (25 enabled phrase keywords). Niche terms, but history proves the market bites.</td>
 </tr>
 <tr>
@@ -336,7 +336,7 @@
 <td>$2,095</td>
 <td>15</td>
 <td>$1,500/day</td>
-<td class="geo"></td>
+<td class="geo2">Noah: volatile rep. Retry at lower budget.</td>
 <td class="note">Lifetime $2.1K / 15 conversions, completely dark for 90 days despite 79 enabled keywords. 14 of 19 ad groups paused. Needs a rebuild decision, not just a nudge.</td>
 </tr>
 <tr>
@@ -348,7 +348,7 @@
 <td>$388</td>
 <td>5</td>
 <td>$1,000/day</td>
-<td class="geo"></td>
+<td class="geo2"></td>
 <td class="note">Review against geo priorities.</td>
 </tr>
 <tr>
@@ -360,7 +360,7 @@
 <td>$204</td>
 <td>1</td>
 <td>$500/day</td>
-<td class="geo"></td>
+<td class="geo2">FL niche: fold-in candidate.</td>
 <td class="note">Generator is a low-search-volume specialty line. Pattern repeats account-wide: these rarely serve. Consolidate or accept as always-on niche presence.</td>
 </tr>
 <tr>
@@ -372,7 +372,7 @@
 <td>$172</td>
 <td>1</td>
 <td>$1,000/day</td>
-<td class="geo"></td>
+<td class="geo2"></td>
 <td class="note">Reefer is a low-search-volume specialty line. Pattern repeats account-wide: these rarely serve. Consolidate or accept as always-on niche presence.</td>
 </tr>
 <tr>
@@ -384,7 +384,7 @@
 <td>$150</td>
 <td>2</td>
 <td>$1,000/day</td>
-<td class="geo"></td>
+<td class="geo2"></td>
 <td class="note">Generator is a low-search-volume specialty line. Pattern repeats account-wide: these rarely serve. Consolidate or accept as always-on niche presence.</td>
 </tr>
 <tr>
@@ -396,7 +396,7 @@
 <td>$95</td>
 <td>5</td>
 <td>$500/day</td>
-<td class="geo"></td>
+<td class="geo2">FL niche: fold-in candidate.</td>
 <td class="note">Generator is a low-search-volume specialty line. Pattern repeats account-wide: these rarely serve. Consolidate or accept as always-on niche presence.</td>
 </tr>
 <tr>
@@ -408,7 +408,7 @@
 <td>$40</td>
 <td>4</td>
 <td>$1,000/day</td>
-<td class="geo"></td>
+<td class="geo2"></td>
 <td class="note">Generator is a low-search-volume specialty line. Pattern repeats account-wide: these rarely serve. Consolidate or accept as always-on niche presence.</td>
 </tr>
 <tr>
@@ -420,7 +420,7 @@
 <td>$38</td>
 <td>2</td>
 <td>$1,000/day</td>
-<td class="geo"></td>
+<td class="geo2"></td>
 <td class="note">Dyed Diesel is a low-search-volume specialty line. Pattern repeats account-wide: these rarely serve. Consolidate or accept as always-on niche presence.</td>
 </tr>
 <tr>
@@ -432,7 +432,7 @@
 <td>$35</td>
 <td>1</td>
 <td>$500/day</td>
-<td class="geo"></td>
+<td class="geo2">FL niche: fold-in candidate.</td>
 <td class="note">Generator is a low-search-volume specialty line. Pattern repeats account-wide: these rarely serve. Consolidate or accept as always-on niche presence.</td>
 </tr>
 <tr>
@@ -444,7 +444,7 @@
 <td>$33</td>
 <td>2</td>
 <td>$1,000/day</td>
-<td class="geo"></td>
+<td class="geo2"></td>
 <td class="note">Generator is a low-search-volume specialty line. Pattern repeats account-wide: these rarely serve. Consolidate or accept as always-on niche presence.</td>
 </tr>
 <tr>
@@ -456,7 +456,7 @@
 <td>$28</td>
 <td>0</td>
 <td>$1,000/day</td>
-<td class="geo"></td>
+<td class="geo2"></td>
 <td class="note">Reefer is a low-search-volume specialty line. Pattern repeats account-wide: these rarely serve. Consolidate or accept as always-on niche presence.</td>
 </tr>
 <tr>
@@ -468,7 +468,7 @@
 <td>$20</td>
 <td>0</td>
 <td>$500/day</td>
-<td class="geo"></td>
+<td class="geo2">FL niche: fold-in candidate.</td>
 <td class="note">Wet Hosing is a low-search-volume specialty line. Pattern repeats account-wide: these rarely serve. Consolidate or accept as always-on niche presence.</td>
 </tr>
 <tr>
@@ -480,7 +480,7 @@
 <td>$14</td>
 <td>0</td>
 <td>$1,000/day</td>
-<td class="geo"></td>
+<td class="geo2"></td>
 <td class="note">Dyed Diesel is a low-search-volume specialty line. Pattern repeats account-wide: these rarely serve. Consolidate or accept as always-on niche presence.</td>
 </tr>
 <tr>
@@ -492,7 +492,7 @@
 <td>$11</td>
 <td>1</td>
 <td>$500/day</td>
-<td class="geo"></td>
+<td class="geo2">FL niche: fold-in candidate.</td>
 <td class="note">Wet Hosing is a low-search-volume specialty line. Pattern repeats account-wide: these rarely serve. Consolidate or accept as always-on niche presence.</td>
 </tr>
 <tr>
@@ -504,7 +504,7 @@
 <td>$10</td>
 <td>0</td>
 <td>$1,000/day</td>
-<td class="geo"></td>
+<td class="geo2"></td>
 <td class="note">Wet Hosing is a low-search-volume specialty line. Pattern repeats account-wide: these rarely serve. Consolidate or accept as always-on niche presence.</td>
 </tr>
 <tr>
@@ -516,7 +516,7 @@
 <td>$9</td>
 <td>0</td>
 <td>$500/day</td>
-<td class="geo"></td>
+<td class="geo2">FL niche: fold-in candidate.</td>
 <td class="note">Wet Hosing is a low-search-volume specialty line. Pattern repeats account-wide: these rarely serve. Consolidate or accept as always-on niche presence.</td>
 </tr>
 <tr>
@@ -528,7 +528,7 @@
 <td>$8</td>
 <td>0</td>
 <td>$1,000/day</td>
-<td class="geo"></td>
+<td class="geo2"></td>
 <td class="note">Generator is a low-search-volume specialty line. Pattern repeats account-wide: these rarely serve. Consolidate or accept as always-on niche presence.</td>
 </tr>
 <tr>
@@ -540,7 +540,7 @@
 <td>$7</td>
 <td>0</td>
 <td>$1,000/day</td>
-<td class="geo"></td>
+<td class="geo2">FL niche: fold-in candidate.</td>
 <td class="note">Reefer is a low-search-volume specialty line. Pattern repeats account-wide: these rarely serve. Consolidate or accept as always-on niche presence.</td>
 </tr>
 <tr>
@@ -552,7 +552,7 @@
 <td>$1</td>
 <td>0</td>
 <td>$700/day</td>
-<td class="geo"></td>
+<td class="geo2">FL niche: fold-in candidate.</td>
 <td class="note">Generator is a low-search-volume specialty line. Pattern repeats account-wide: these rarely serve. Consolidate or accept as always-on niche presence.</td>
 </tr>
 <tr>
@@ -564,7 +564,7 @@
 <td>$1</td>
 <td>1</td>
 <td>$700/day</td>
-<td class="geo"></td>
+<td class="geo2"></td>
 <td class="note">Generator is a low-search-volume specialty line. Pattern repeats account-wide: these rarely serve. Consolidate or accept as always-on niche presence.</td>
 </tr>
 <tr>
@@ -576,7 +576,7 @@
 <td>$0</td>
 <td>0</td>
 <td>$1,500/day</td>
-<td class="geo"></td>
+<td class="geo2"></td>
 <td class="note">Reefer is a low-search-volume specialty line. Pattern repeats account-wide: these rarely serve. Consolidate or accept as always-on niche presence.</td>
 </tr>
 <tr>
@@ -588,7 +588,7 @@
 <td>$0</td>
 <td>0</td>
 <td>$1,000/day</td>
-<td class="geo"></td>
+<td class="geo2">FL niche: fold-in candidate.</td>
 <td class="note">Reefer is a low-search-volume specialty line. Pattern repeats account-wide: these rarely serve. Consolidate or accept as always-on niche presence.</td>
 </tr>
 <tr>
@@ -600,7 +600,7 @@
 <td>$0</td>
 <td>0</td>
 <td>$500/day</td>
-<td class="geo"></td>
+<td class="geo2"></td>
 <td class="note">Wet Hosing is a low-search-volume specialty line. Pattern repeats account-wide: these rarely serve. Consolidate or accept as always-on niche presence.</td>
 </tr>
 <tr>
@@ -612,7 +612,7 @@
 <td>$0</td>
 <td>0</td>
 <td>$1,000/day</td>
-<td class="geo"></td>
+<td class="geo2"></td>
 <td class="note">Reefer is a low-search-volume specialty line. Pattern repeats account-wide: these rarely serve. Consolidate or accept as always-on niche presence.</td>
 </tr>
 <tr>
@@ -624,7 +624,7 @@
 <td>$0</td>
 <td>0</td>
 <td>$1,000/day</td>
-<td class="geo"></td>
+<td class="geo2">FL niche: fold-in candidate.</td>
 <td class="note">Reefer is a low-search-volume specialty line. Pattern repeats account-wide: these rarely serve. Consolidate or accept as always-on niche presence.</td>
 </tr>
 <tr>
@@ -636,7 +636,7 @@
 <td>$0</td>
 <td>0</td>
 <td>$1,000/day</td>
-<td class="geo"></td>
+<td class="geo2">FL niche: fold-in candidate.</td>
 <td class="note">Reefer is a low-search-volume specialty line. Pattern repeats account-wide: these rarely serve. Consolidate or accept as always-on niche presence.</td>
 </tr>
       </tbody>
@@ -644,6 +644,17 @@
   </div>
   <p class="meta">*Conversion counts inflated by the page-load tag bug. Use as relative signal only. "Idle 90+d" means no spend at all in the 90-day window.</p>
 
+
+  <h2>Market intel from Noah, checked against the data</h2>
+  <div class="callout blue">
+    <ul>
+      <li><strong>Tennessee, "volatile":</strong> His memory is half right. TN is lumpy, not lawless: monthly spend swung $0 (Mar through Jul) to $7,054 (Aug) before flatlining Aug 31, but in 12 months it crossed its $1,000/day budget exactly once ($1,179 on Jan 26). It is a boom-bust campaign, not a budget-buster. <strong>Retry plan: $400/day</strong>, watch search terms weekly for two weeks.</li>
+      <li><strong>South Carolina, "volatile":</strong> Not supported by the data. SC averaged $50/day, peaked at $180, and has been completely dark since Feb 28. The risk is the opposite: it sits on a $1,500/day Maximize Conversions budget that would fire hard if delivery ever woke up. <strong>Retry plan: $200/day</strong>, and note the real problem is delivery (14 of 19 ad groups paused), not spend control.</li>
+      <li><strong>Las Vegas, "always wanted more traction":</strong> Data agrees it has never come. Nine Vegas campaigns spent about $13.5K combined in 12 months; only Gasoline ($6.6K) and Fleet ($2.7K) did anything. Averages of $10 to $33 per active day say the market trickles. Keep Vegas P1 on strategy, but consider consolidating the nine thin campaigns into two or three stronger ones rather than reviving each separately.</li>
+      <li><strong>Nashville, "important at one point":</strong> Current Nashville builds are young (first activity Jan 23, 2026). Nashville Fuel ($2.1K/yr) and Dyed Diesel ($1.3K/yr) carry the market and are still spending. The dormant Nashville pieces (Fleet, Generator, Reefer) have never produced. Whatever made Nashville important historically predates these campaigns.</li>
+      <li><strong>Florida niche lines:</strong> Noah confirms the fold-in plan. Cape Coral, Jacksonville, Miami, Orlando, and Tampa specialty campaigns (Generator, Reefer, Wet Hosing) are consolidation candidates into their market's main campaign as ad groups.</li>
+    </ul>
+  </div>
   <h2>How to prioritize (my recommendation)</h2>
   <div class="callout">
     <ul>
