@@ -128,6 +128,14 @@
       "summary": "Fresh five-section Beaumont weddings landing page built to Brand Guide v1.1 container and background rules.",
       "published_at": "2026-09-10T20:19:20+00:00",
       "path": "jony/beaumont-weddings-ad-landing-page-v2.html"
+    },
+    {
+      "agent": "don",
+      "slug": "dormant-campaigns-audit",
+      "title": "Dormant Campaign Audit: Enabled but Not Spending",
+      "summary": "44 of 101 enabled Fuel Logic campaigns are not spending; tiered revival list with priorities and geo-ranking worksheet.",
+      "published_at": "2026-09-11T20:16:59+00:00",
+      "path": "don/dormant-campaigns-audit.html"
     }
   ]
 }
