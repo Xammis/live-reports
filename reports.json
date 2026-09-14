@@ -136,6 +136,14 @@
       "summary": "44 of 101 enabled Fuel Logic campaigns are not spending; tiered revival list with Noah's market intel and relaunch budget plans.",
       "published_at": "2026-09-11T20:30:00+00:00",
       "path": "don/dormant-campaigns-audit.html"
+    },
+    {
+      "agent": "don",
+      "slug": "paused-revival-board",
+      "title": "Paused Campaign Revival Board",
+      "summary": "226 paused campaigns screened: 17 recent budget casualties producing when cut, 11 mid-year pauses with strong records, long-paused legends needing coverage checks.",
+      "published_at": "2026-09-14T01:19:01+00:00",
+      "path": "don/paused-revival-board.html"
     }
   ]
 }
