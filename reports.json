@@ -168,6 +168,14 @@
       "summary": "Provisional September versus August GA4 and CallRail snapshots, matched-date GSC analysis, and pending GBP/Bing inputs.",
       "published_at": "2026-10-01T01:17:20+00:00",
       "path": "marla/fuel-logic-seo-report-september-2026-provisional.html"
+    },
+    {
+      "agent": "jony",
+      "slug": "design-trends-2026-now-next",
+      "title": "Design Signals: Now & Next",
+      "summary": "Source-linked graphic, brand, web and UX trends, with a clearly labeled late-2026 and 2027 watchlist.",
+      "published_at": "2026-10-01T12:56:16+00:00",
+      "path": "jony/design-trends-2026-now-next.html"
     }
   ]
 }
