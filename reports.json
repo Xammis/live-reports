@@ -184,6 +184,14 @@
       "summary": "September performance with a fixed retained-commercial-page prior-year benchmark, Tavern retirement context and booking-measurement caveats.",
       "published_at": "2026-10-05T10:21:19+00:00",
       "path": "marla/beaumont-hotel-seo-report-september-2026.html"
+    },
+    {
+      "agent": "nick",
+      "slug": "fuel-logic-portal-login",
+      "title": "Client Portal Login",
+      "summary": "Desktop and mobile screenshots of the reskinned Fuel Logic client portal login page, in light and dark mode, with a summary of what changed.",
+      "published_at": "2026-10-08T17:05:27+00:00",
+      "path": "nick/fuel-logic-portal-login.html"
     }
   ]
 }
