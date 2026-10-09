@@ -192,6 +192,14 @@
       "summary": "Desktop and mobile screenshots of the reskinned Fuel Logic client portal login page, in light and dark mode, with a summary of what changed.",
       "published_at": "2026-10-08T17:05:27+00:00",
       "path": "nick/fuel-logic-portal-login.html"
+    },
+    {
+      "agent": "dexter",
+      "slug": "decentralized-vs-centralized-fleet-fueling",
+      "title": "Decentralized vs. Centralized Fleet Fueling",
+      "summary": "A conceptual side-by-side diagram of separate retail fueling records and coordinated on-site delivery.",
+      "published_at": "2026-10-09T00:47:57+00:00",
+      "path": "dexter/decentralized-vs-centralized-fleet-fueling.html"
     }
   ]
 }
