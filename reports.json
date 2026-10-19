@@ -200,6 +200,14 @@
       "summary": "Screenshots of the reskinned Fuel Logic client portal login in light and dark mode, plus the six main portal pages on desktop and mobile in light mode.",
       "published_at": "2026-10-16T15:34:49+00:00",
       "path": "nick/fuel-logic-portal-login.html"
+    },
+    {
+      "agent": "marla",
+      "slug": "fuel-logic-seo-report-october-1-15-2026",
+      "title": "Fuel Logic SEO Report: October 1-15, 2026",
+      "summary": "October 1-15 versus September 16-30: Google visibility, organic acquisition, conversion signals, call aggregates and measurement priorities.",
+      "published_at": "2026-10-19T13:43:39+00:00",
+      "path": "marla/fuel-logic-seo-report-october-1-15-2026.html"
     }
   ]
 }
