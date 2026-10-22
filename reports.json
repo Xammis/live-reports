@@ -210,20 +210,20 @@
       "path": "marla/fuel-logic-seo-report-october-1-15-2026.html"
     },
     {
-      "agent": "don",
-      "slug": "fuel-logic-coverage-map",
-      "title": "Fuel Logic Advertising Coverage Map",
-      "summary": "Interactive advertising-targeting snapshot with the new California city markets, regional layers and clear coverage limits.",
-      "published_at": "2026-10-22T03:09:31+00:00",
-      "path": "don/fuel-logic-coverage-map.html"
-    },
-    {
       "agent": "nick",
       "slug": "ka-capture-made-simple-2026-10-21",
       "title": "KA Capture, Made Simple",
       "summary": "A simple proposed flow from call capture and customer intake to verified KA lists, with non-marketing safeguards.",
       "published_at": "2026-10-22T03:14:07+00:00",
       "path": "nick/ka-capture-made-simple-2026-10-21.html"
+    },
+    {
+      "agent": "don",
+      "slug": "fuel-logic-coverage-map",
+      "title": "Fuel Logic Advertising Coverage Map",
+      "summary": "Interactive targeting snapshot with all state abbreviations, Northeast leader labels and the California city markets.",
+      "published_at": "2026-10-22T13:59:03+00:00",
+      "path": "don/fuel-logic-coverage-map.html"
     }
   ]
 }
