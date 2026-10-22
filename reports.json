@@ -224,6 +224,14 @@
       "summary": "Interactive targeting snapshot with all state abbreviations, Northeast leader labels and the California city markets.",
       "published_at": "2026-10-22T13:59:03+00:00",
       "path": "don/fuel-logic-coverage-map.html"
+    },
+    {
+      "agent": "nick",
+      "slug": "ka-capture-flowchart-2026-10-22",
+      "title": "KA Capture Flowchart",
+      "summary": "Draft decision flowchart showing capture, existing-contact matching, KA review, identity checks and a human-review retry loop.",
+      "published_at": "2026-10-22T14:57:56+00:00",
+      "path": "nick/ka-capture-flowchart-2026-10-22.html"
     }
   ]
 }
