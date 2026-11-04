@@ -240,6 +240,14 @@
       "summary": "Three asynchronous inputs, a readiness gate, and a simple enrichment fallback for confirmed KAs without intake details.",
       "published_at": "2026-10-27T19:54:36+00:00",
       "path": "nick/ka-contact-flow-2026-10-27.html"
+    },
+    {
+      "agent": "marla",
+      "slug": "fuel-logic-seo-report-october-2026",
+      "title": "Fuel Logic SEO Report: October 2026",
+      "summary": "October versus September: day-normalized Google visibility, organic acquisition, buying queries, call signals and measurement priorities.",
+      "published_at": "2026-11-04T20:12:24+00:00",
+      "path": "marla/fuel-logic-seo-report-october-2026.html"
     }
   ]
 }
