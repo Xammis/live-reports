@@ -256,6 +256,14 @@
       "summary": "US-only three-window GSC comparisons, daily drop flags, page/query loss patterns and explicit data-access gaps.",
       "published_at": "2026-11-16T13:54:19+00:00",
       "path": "marla/fuel-brand-us-search-dip-november-9-15-2026.html"
+    },
+    {
+      "agent": "marla",
+      "slug": "fuel-logic-seo-report-november-1-15-2026",
+      "title": "Fuel Logic SEO Report: November 1-15, 2026",
+      "summary": "November1-15 versus October16-31: day-normalized search, organic acquisition, page changes and phone signals.",
+      "published_at": "2026-11-17T18:15:42+00:00",
+      "path": "marla/fuel-logic-seo-report-november-1-15-2026.html"
     }
   ]
 }
