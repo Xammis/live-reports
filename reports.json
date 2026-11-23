@@ -272,6 +272,14 @@
       "summary": "Graphs and context for 86 included click records, email and destination comparisons, and privacy-safe link detail.",
       "published_at": "2026-11-23T11:46:57+00:00",
       "path": "vincent/october-2026-email-clicks-visual.html"
+    },
+    {
+      "agent": "vincent",
+      "slug": "hubspot-workflow-journey-example",
+      "title": "Fuel Logic | Example HubSpot Workflow Customer Journey",
+      "summary": "A read-only workflow map with fictional lead paths, timing gates, and clear configuration-versus-outcome context.",
+      "published_at": "2026-11-23T13:34:53+00:00",
+      "path": "vincent/hubspot-workflow-journey-example.html"
     }
   ]
 }
