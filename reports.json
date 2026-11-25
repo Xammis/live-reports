@@ -285,8 +285,8 @@
       "agent": "vincent",
       "slug": "email-example-2026-11-11-24",
       "title": "Fuel Logic | Email Example, November 11–24, 2026",
-      "summary": "Compact one-off email dashboard with date/type/email filters, separate regular and automated results, workflow context, and a qualified first-delivery indicator.",
-      "published_at": "2026-11-25T13:07:45+00:00",
+      "summary": "Compact one-off email dashboard with date/type/email filters, separate regular and automated metrics, click-through rates, and workflow context.",
+      "published_at": "2026-11-25T13:19:40+00:00",
       "path": "vincent/email-example-2026-11-11-24.html"
     }
   ]
